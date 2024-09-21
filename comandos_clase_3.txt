@@ -1,0 +1,40 @@
+    1  ls -l
+    2  cd repogit/
+    3  ls -l
+    4  cd TP_AySO/
+    5  ls -l
+    6  git status
+    7  git commit -m "add: primer commit"
+    8  git push
+    9  git status
+   10  echo "Hello World"
+   11  echo "hola $(whoami)"
+   12  echo "hola $(whoami)" > unarchivo
+   13  cat unarchivo
+   14  bc<<<5+2
+   15  cat unarchivo
+   16  cat unarchivo | wc
+   17  ls -l
+   18  ls -l | wc -l
+   19  ls -l | wc
+   20  wc -l << EOF
+linea1
+linea2
+EOF
+
+   21  cat << FIN > otroarchivo
+linea1
+2
+3
+FIN
+
+   22  ll
+   23  cat otroarchivo
+   24  cat << FIN > otroarchivo
+asdfasdf
+asdfasdf
+sadf
+FIN
+
+   25  cat otroarchivo
+   26  history > comandos_clase_3.txt

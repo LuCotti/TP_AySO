@@ -1,0 +1,184 @@
+ls -l
+cd repogit/
+ls -l
+cd TP_AySO/
+ls -l
+git status
+git commit -m "add: primer commit"
+git push
+git status
+echo "Hello World"
+echo "hola $(whoami)"
+echo "hola $(whoami)" > unarchivo
+cat unarchivo
+bc<<<5+2
+cat unarchivo
+cat unarchivo | wc
+ls -l
+ls -l | wc -l
+ls -l | wc
+wc -l << EOF
+linea1
+linea2
+EOF
+
+cat << FIN > otroarchivo
+linea1
+2
+3
+FIN
+
+ll
+cat otroarchivo
+cat << FIN > otroarchivo
+asdfasdf
+asdfasdf
+sadf
+FIN
+
+cat otroarchivo
+history > comandos_clase_3.txt
+tail -n5 comandos_clase_3.txt
+ls -l
+git status
+man man
+man ls
+man 1 man
+man ascii
+ls -l
+ls
+mkdir -p ejercicio1/carpeta
+ls -l
+tree ejercicio1
+apt  install tree  # version 2.0.2-1
+tree ejercicio1
+snap install tree  # version 1.8.0+pkg-3fd6
+man sudo
+snap info tree
+sudo snap install tree
+tree ejercicio1
+exit
+dd
+pwd
+ls -l
+cd
+ls -l
+cd repogit/
+ls -l
+ls
+cd TP_AySO/
+ls -l
+pwd
+cat etc/os-release
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+ls -l
+ls
+cat datos_usuario.txt 
+> datos_usuario.txt 
+cat datos_usuario.txt 
+ls
+echo "Usuario: $(whoami)" > datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git config --global user.email
+git config --global user.name
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+cat /proc/cpuinfo
+grep -i model /proc/cpuinfo
+man tail
+tail -n1 model /proc/cpuinfo
+tail -n1 /proc/cpuinfo
+tail -n2 /proc/cpuinfo
+tail -n2 grep -i model /proc/cpuinfo
+grep -i model /proc/cpuinfo | tail -n2
+tail -n2 /proc/cpuinfo | grep -i model /proc/cpuinfo
+grep -i model /proc/cpuinfo | tail -n2
+ls
+grep -i model name /proc/cpuinfo
+grep -i "model name" /proc/cpuinfo
+grep -i "model name" /proc/cpuinfo | tail -n1
+grep -i "model name" /proc/cpuinfo | head -n1
+grep -i "model name" /proc/cpuinfo | tail -n1 >> datos_usuario.txt 
+cat datos_usuario.txt [B
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git add .
+git status
+git commit -m "feat: Añadiendo información de CPU"
+git status
+ls
+cat /etc/passwd
+man grep
+grep -v "nologin" /etc/passwd
+history
+ls
+grep -v "nologin" /etc/passwd
+man sort
+man sort 7
+man sort
+grep -v "nologin" /etc/passwd
+grep -v "nologin" /etc/passwd > lista_ordenada.txt
+cat lista_ordenada.txt 
+man sort
+sort -R lista_ordenada.txt 
+man sort
+sort -k 7 lista_ordenada.txt 
+man sort
+sort -k 6 lista_ordenada.txt 
+sort -k 7 lista_ordenada.txt 
+cat lista_ordenada.txt 
+sort -k 6 lista_ordenada.txt 
+cat lista_ordenada.txt 
+sort -k 7 lista_ordenada.txt 
+cat lista_ordenada.txt 
+man sort
+sort -k 7 -t : lista_ordenada.txt 
+cat lista_ordenada.txt 
+grep -v "nologin" /etc/passwd > lista_ordenada.txt 
+cat lista_ordenada.txt 
+grep -v "nologin" /etc/passwd > lista_ordenada.txt 
+cat lista_ordenada.txt 
+sort -k 7 -t : lista_ordenada.txt > lista_ordenada_2.txt 
+cat lista_ordenada_2.txt 
+man man
+apropos delete
+ls
+rm lista_ordenada.txt 
+ls
+apropos rename
+mv lista_ordenada_2.txt "lista_ordenada.txt" 
+ls
+cat lista_ordenada.txt 
+git add lista_ordenada.txt 
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+apropos dump traffic
+echo "tcpdump\napropos dump traffic" > comando_dump_net.txt
+cat comando_dump_net.txt 
+man echo
+echo -e "tcpdump\napropos dump traffic" > comando_dump_net.txt
+cat comando_dump_net.txt 
+echo -e "Comando: tcpdump\nBúsqueda de comando: apropos dump traffic" > comando_dump_net.txt
+cat comando_dump_net.txt 
+git add comando_dump_net.txt 
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git status
+ls
+cat README.md 
+ls
+echo -e "Alumno: Luciano Cotti\nDivisión: 318\nTurno: noche" >> RE
+ls
+rm RE
+ls
+echo -e "Alumno: Luciano Cotti\nDivisión: 318\nTurno: noche" >> README.md 
+cat README.md 
+git add README.md 
+git commit -m "feat: añadiendo información del usuario"
+git status
+history -a
